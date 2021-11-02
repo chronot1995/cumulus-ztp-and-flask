@@ -1,0 +1,27 @@
+node:
+  98039BC0EDC4:
+    hostname: sn2100
+    routing:
+      lo: 10.2.1.1/32
+      bgp:
+        asn: 65210
+        underlay:
+          external:
+            peers:
+              - swp1
+              - swp2
+              - swp3
+              - swp20
+  sn3700:
+    hostname: sn3700
+    routing:
+      lo: 10.2.1.2/32
+      bgp:
+        asn: 65377
+        underlay:
+          external:
+            peers:
+              - swp1
+              - swp2
+              - swp3
+              - swp20

@@ -1,0 +1,9 @@
+[switches]
+98039BC0EDC4 ansible_host=192.168.255.101
+#98039BC0EDC4 ansible_host=192.168.1.123
+
+[all:vars]
+ansible_user=cumulus
+ansible_ssh_pass=CumulusLinux!
+ansible_sudo_pass=CumulusLinux!
+ansible_ssh_common_args='-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
